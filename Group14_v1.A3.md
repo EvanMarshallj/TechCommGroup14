@@ -103,7 +103,7 @@ Sample response for the above request to get roster for Valour FC for 2020 seaso
 >               "year": "2020"
 >           }
 >       }
-Sample response for the above request to check if a team plays tonight:
+Sample response for the above request to check if Winnipeg Jets plays tonight:
 
 >        {
 >           "results":
