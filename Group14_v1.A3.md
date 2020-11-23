@@ -36,18 +36,32 @@
 > "roster":
 >   {
 > 
->   "teamName": "Winnipeg Jets",
+>       "teamName": "Winnipeg Jets",
 >
->   "players": [ 
->     "Tobias Enstrom", 
->     "Dustin Byfulgien",
->     "Andrew Ladd"
->   ],
+>       "players": [ 
+>       "Tobias Enstrom", 
+>       "Dustin Byfulgien",
+>       "Andrew Ladd"
+>       ],
 >
->   "year": "2018"
+>     "year": "2018"
 >
 >   }
 >       
 
-### Sample requests
+## Sample requests
+
+This is the sample request to get a team's next fixture information:
+
+>       https://winnipeg_sports_api/json?teamName="Winnipeg Jets"
+
+
+This is the sample request to get a team's roster information:
+
+>       https://winnipeg_sports_api/json?teamName="Winnipeg Jets"&year=2020
+
+
+This is the sample request to get information that a team plays tonight:
+
+>       https://winnipeg_sports_api/json?teamName="Winnipeg Jets"
 
