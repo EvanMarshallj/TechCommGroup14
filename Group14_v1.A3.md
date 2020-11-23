@@ -49,19 +49,68 @@
 >   }
 >       
 
-## Sample requests
+## Sample Requests
 
 This is the sample request to get a team's next fixture information:
 
 >       https://winnipeg_sports_api/json?teamName="Winnipeg Jets"
 
-
 This is the sample request to get a team's roster information:
 
->       https://winnipeg_sports_api/json?teamName="Winnipeg Jets"&year=2020
+>       https://winnipeg_sports_api/json?teamName="Valour FC"&year=2020
 
-
-This is the sample request to get information that a team plays tonight:
+This is the sample request to check if a team plays tonight:
 
 >       https://winnipeg_sports_api/json?teamName="Winnipeg Jets"
 
+## Sample response 
+Sample response for the above request to get next fixture for Winnipeg Jets:
+
+>       "game":
+>        {
+>
+>           "teamName": "Winnipeg Jets",
+>
+>           "when": "2020-11-20-19:00UTC",
+>
+>           "opponent": "Calgary Flames",
+>
+>           "where": "Winnipeg"
+>
+>       }
+
+Sample response for the above request to get roster for Valour FC for 2020 season:
+
+>       "roster":
+>       {
+> 
+>           "teamName": "Winnipeg Jets",
+>           "players": [ 
+>                        "Matt Silva", 
+>                        "Julian Dunn",
+>                        "Amir Soto",
+>                        "Brett Levis",
+>                        "Dante Campbell", 
+>                        "Raphael Garcia",
+>                        "Fraser Aird",
+>                        "Solomon Kojo Antwi",
+>                        "Carreiro Dylan",
+>                        "Cebara Stefan", 
+>                        "Dyer Moses",
+>                        "Gutiérrez Diego",
+>                        "Hocine Chakib",
+>                        ],
+>
+>           "year": "2020"
+>      }
+
+Sample response for the above request to check if a team plays tonight:
+
+>        {
+>           "results":
+>            {
+>                "TeamName":"Winnipeg Jets",
+>                "Date":"2020-11-23",
+>                "PlaysTonight":"False"
+>            }
+>       }
