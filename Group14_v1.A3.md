@@ -19,7 +19,7 @@
 
 **nextGameInfo(teamName)**: returns when & where the team is playing and who its against.
 
-**roster(teamname, year)** : returns a list of the team members in the selected year.
+**roster(teamName, year)** : returns a list of the team members in the selected year.
 
 **playsTonight(teamName)**: returns a true or false if a team is playing tonight.
 
