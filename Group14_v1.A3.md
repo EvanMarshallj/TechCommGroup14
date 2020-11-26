@@ -6,7 +6,7 @@
 
 - **Manitoba sports event API**
 
-- This is a basic restful API which is used to give information about Winnipeg sports teams including the Jets, Bombers, and Goldeyes. It gives information about the team that you are looking for roster and also line up of the match.
+- Our simple Rest API will give you the cutting edge information on your favourite Winnipeg sports teams. Keep up with the Jets, Bombers, Valour, and Goldeyes by reviewing their next game, current roster, or simply checking if they play **tonight!**
 
 ## Parameters
 
