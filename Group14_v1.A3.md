@@ -31,14 +31,13 @@ _Created by Group 14_
     | Parameter | Type | Required | Description |
     | --------- | ------ | -------- | --------------------- |
     | teamName | string | yes | The name of the team |
-    | year | int | yes | The year of game play |.
 
 1.  **/playsTonight**: returns a true or false if a team is playing tonight.
 
     **Parameter(s)**
     | Parameter | Type | Required | Description |
     |-----------|------|----------|-----------------------|
-    | year | int | yes | The year of game play |
+    | teamName| string | yes | The name of the team |
 
 ## Roster Resources
 
@@ -65,7 +64,7 @@ _Created by Group 14_
     | Parameter | Type | Required | Description |
     | --------- | ------ | -------- | --------------------- |
     | teamName | string | yes | The name of the team |
-    | year | int | yes | The year of game play |
+    | year | int | yes | Year of team's roster |
 
 ## Sample Requests
 
